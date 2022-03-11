@@ -1,0 +1,115 @@
+<html>
+<head><title>ReadMeNow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href = "styleadd.css" rel = "stylesheet" type = "text/css">
+  	<link rel="stylesheet" href="nivo-slider.css" media="screen"/>
+  	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+	</script>
+  	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  	<link rel="shortcut icon" href="book.jpg"/>
+  	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+ <div id = "header">
+     <img src="1.jpg" id = "myImage">
+   </div>
+
+   <div class="top-right">
+     <table>
+	   <tr>
+	   <td><a href="example.html" style="text-decoration: none"><font color="#FFFFFF">HOME</a></td>
+       <td><a href="stores.html" style="text-decoration: none"><font color="#FFFFFF">STORES</a></td>
+       <td><a href="comment.html" style="text-decoration: none"><font color="#FFFFFF">COMMENT</a></td>
+	   <td><a href="books.html" style="text-decoration: none"><font color="#FFFFFF">SEARCH</a></td></font>	
+       </tr></table>
+	   </div>
+	   <div class = "additionalbook">
+        <h3><i> Historical fiction is a literary genre in which the plot takes place in a 
+		setting located in the past.</h3></i>
+					
+	 <div class="block1">
+     <button class="accordion"><b><i><font color="#0B3B24"><h4>A gentleman in Moscow - Amor Towles</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p> In 1922, Count Alexander Rostov is deemed an unrepentant aristocrat by a Bolshevik tribunal,
+	 and is sentenced to house arrest in the Metropol, a grand hotel across the street from the Kremlin.
+	 Rostov, an indomitable man of erudition and wit, has never worked a day in his life, and must now 
+	 live in an attic room while some of the most tumultuous decades in Russian history are unfolding
+	 outside the hotel’s doors. Unexpectedly, his reduced circumstances provide him entry into a much 
+	 larger world of emotional discovery.</p>
+     </div>
+	  <button class="accordion"><b><i><font color="#0B3B24"><h4> A rising man - Abir Mukherjee</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Calcutta, 1919. Captain Sam Wyndham, former Scotland Yard detective, is a new arrival to Calcutta.
+	 Desperately seeking a fresh start after his experiences during the Great War, Wyndham has been 
+	 recruited to head up a new post in the police force. He is immediately overwhelmed by the heady
+	 vibrancy of the tropical city, but with barely a moment to acclimatize or to deal with the
+	 ghosts that still haunt him, Wyndham is caught up in a murder investigation that threatens
+	 to destabilize a city already teetering on the brink of political insurgency. </p>
+     </div>
+	  <button class="accordion"><b><i><font color="#0B3B24"><h4>Alias Grace - Margaret Atwood</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p> It’s 1843, and Grace Marks has been convicted for her involvement in the vicious murders 
+	 of her employer and his housekeeper and mistress. Some believe Grace is innocent; others think
+	 her evil or insane. Now serving a life sentence, Grace claims to have no memory of the murders.</p>
+     </div>
+	  <button class="accordion"><b><i><font color="#0B3B24"><h4>As meat loves salt - Maria Mccann</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p> In the seventeenth century, the English Revolution is under way. The nation, seething 
+	 with religious and political discontent, has erupted into violence and terror. Jacob Cullen 
+	 and his fellow soldiers dream of rebuilding their lives when the fighting is over. But the 
+	 shattering events of war will overtake them.</p>
+     </div>
+	  <button class="accordion"><b><i><font color="#0B3B24"><h4>Beloved - Toni Morrison</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Sethe, its protagonist, was born a slave and escaped to Ohio, but eighteen years later 
+	 she is still not free. She has too many memories of Sweet Home, the beautiful farm where 
+	 so many hideous things happened. And Sethe’s new home is haunted by the ghost of her baby, 
+	 who died nameless and whose tombstone is engraved with a single word: Beloved. Filled with 
+	 bitter poetry and suspense as taut as a rope, Beloved is a towering achievement.</p>
+     </div>
+	  <button class="accordion"><b><i><font color="#0B3B24"><h4>The book of night women - Marlon James</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>A true triumph of voice and storytelling, The Book of Night Women rings with both profound 
+	 authenticity and a distinctly contemporary energy. It is the story of Lilith, born into slavery 
+	 on a Jamaican sugar plantation at the end of the eighteenth century. Even at her birth, the slave 
+	 women around her recognize a dark power that they- and she-will come to both revere and fear.</p>
+     </div>
+	 
+			  <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+            }) ;
+            }
+            </script>
+			
+			 
+			 </div>
+			 <h3 align="center"> <a href="books.html"><font color="green"> Back </h3></a> </font> 
+			 </body>
+			 </html>

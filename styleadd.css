@@ -1,0 +1,64 @@
+#header{
+   min-height: 100px;
+   margin-top:-8px;
+   margin-left:-8px;
+   margin-right:-8px;
+   max-width:1920px;
+   min-width:480px;
+   overflow:hidden;
+}
+
+h3{
+   text-align:center;
+   margin-left:5%;
+}
+
+body{
+	background-color:#eff2f6;
+}
+
+.top-right {
+    position: absolute;
+    top: 27px;
+    right: 100px;  	 
+}
+  
+#myImage{
+   width: 100%;
+   height:60%;
+}
+
+.accordion {
+    background-color: #ebf0fa;
+	border: 1px solid #ddd;
+    color: black;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 15px;	
+    margin-top: -1px;     
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #ebf0fa;
+    overflow: hidden;
+}
+
+div.block1 {
+    background-color:#ebf0fa;
+    text-align:left;
+    width:92%;
+    margin-top:1%;
+    margin-left:4%;
+}	
+	
+.additionalbook{
+	width:70%;
+	background-color: white;
+	margin-left:15%;
+	padding:1%;
+}
+        

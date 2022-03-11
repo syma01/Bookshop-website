@@ -1,0 +1,100 @@
+<html>
+<head><title>ReadMeNow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href = "styleadd.css" rel = "stylesheet" type = "text/css">
+  	<link rel="stylesheet" href="nivo-slider.css" media="screen"/>
+  	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+	</script>
+  	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  	<link rel="shortcut icon" href="book.jpg"/>
+  	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+ <div id = "header">
+     <img src="1.jpg" id = "myImage">
+   </div>
+
+   <div class="top-right">
+     <table>
+	   <tr>
+	   <td><a href="example.html" style="text-decoration: none"><font color="#FFFFFF">HOME</a></td>
+       <td><a href="stores.html" style="text-decoration: none"><font color="#FFFFFF">STORES</a></td>
+       <td><a href="comment.html" style="text-decoration: none"><font color="#FFFFFF">COMMENT</a></td>
+	   <td><a href="books.html" style="text-decoration: none"><font color="#FFFFFF">SEARCH</a></td></font>	
+       </tr></table>
+	   </div>
+	   <div class = "additionalbook">
+        <h3><i>Philosophy is the study of general and fundamental questions, such as those 
+		about reason, existence, knowledge, values, mind, and language. Such questions are 
+		often posed as problems to be studied or resolved. The term was probably 
+		coined by Pythagoras.</h3></i>
+					
+	 <div class="block1">
+     <button class="accordion"><b><i><font color="#0B3B24"><h4>Language, Truth and Logic - Alfred Jules Ayer
+	 </h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>"A delightful book … I should like to have written it myself." — Bertrand Russell. 
+	 First published in 1936, this first full-length presentation in English of the Logical
+	 Positivism of Carnap, Neurath, and others has gone through many printings to become a classic 
+	 of thought and communication. It not only surveys one of the most important areas of modern 
+	 thought; it also shows the confusion that arises from imperfect understanding of the uses of
+	 language. A first-rate antidote for fuzzy thought and muddled writing, this remarkable book
+	 has helped philosophers, writers, speakers, teachers, students, and general readers alike.</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The Vienna Circle - Friedrich Stadler</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>This abridged and revised edition of the original book (Springer-Wien-New York: 2001) 
+	 offers the only comprehensive history and documentation of the Vienna Circle based on new 
+	 sources with an innovative historiographical approach to the study of science. With reference
+	 to previously unpublished archival material and more recent literature, it refutes a number
+	 of widespread clichés about "neo-positivism" or "logical positivism". Following some insights 
+	 on the relation between the history of science and the philosophy of science, the book offers 
+	 an accessible introduction to the complex subject of "the rise of scientific philosophy” in its 
+	 socio-cultural background and European philosophical networks till the forced migration in 
+	 the Anglo-Saxon world.</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>Frank Ramsey: A Sheer Excess of Powers 
+	 - Cheryl Misak</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>When he died in 1930 aged 26, Frank Ramsey had already invented one branch of mathematics 
+	 and two branches of economics, laying the foundations for decision theory and game theory.
+	 Keynes deferred to him; he was the only philosopher whom Wittgenstein treated as an equal. 
+	 Had he lived he might have been recognized as the most brilliant thinker of the century. 
+	 This amiable shambling bear of a man was an ardent socialist, a believer in free love, 
+	 and an intimate of the Bloomsbury set. For the first time Cheryl Misak tells the full 
+	 story of his extraordinary life.</p>
+     </div>
+   
+	  
+			  <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+            }) ;
+            }
+            </script>
+			
+			 
+			 </div>
+			 <h3 align="center"> <a href="books.html"><font color="green"> Back </h3></a> </font> 
+			 </body>
+			 </html>

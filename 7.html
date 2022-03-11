@@ -1,0 +1,110 @@
+<html>
+<head><title>ReadMeNow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href = "styleadd.css" rel = "stylesheet" type = "text/css">
+  	<link rel="stylesheet" href="nivo-slider.css" media="screen"/>
+  	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+	</script>
+  	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  	<link rel="shortcut icon" href="book.jpg"/>
+  	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+ <div id = "header">
+     <img src="1.jpg" id = "myImage">
+   </div>
+
+   <div class="top-right">
+     <table>
+	   <tr>
+	   <td><a href="example.html" style="text-decoration: none"><font color="#FFFFFF">HOME</a></td>
+       <td><a href="stores.html" style="text-decoration: none"><font color="#FFFFFF">STORES</a></td>
+       <td><a href="comment.html" style="text-decoration: none"><font color="#FFFFFF">COMMENT</a></td>
+	   <td><a href="books.html" style="text-decoration: none"><font color="#FFFFFF">SEARCH</a></td></font>	
+       </tr></table>
+	   </div>
+	   <div class = "additionalbook">
+        <h3><i>An autobiography is a self-written account of the life of oneself. The word 
+		"autobiography" was <br>first used deprecatingly by William Taylor in 1797 in the English
+		periodical The Monthly Review,<br> when he suggested the word as a hybrid, but condemned it 
+		as "pedantic".</h3></i>
+					
+	 <div class="block1">
+     <button class="accordion"><b><i><font color="#0B3B24"><h4>The Autobiography of Benjamin Franklin -
+	 Benjamin Franklin</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Written from 1771 to 1790, this book contains the life history of one of America’s
+	 founding fathers. Benjamin Franklin’s autobiography will tell you how a lower-middle 
+	 classed youth raised up into one of the most admired men in the world. It will also tell 
+	 you how Mr. Franklin believed in the American Dream, and indicated the possibilities of 
+	 life in the New World. He proved to the world that hard works paid off, and that 
+	 undistinguished persons could become of great importance in America.</p>
+     </div>
+   <button class="accordion"><b><i><font color="#0B3B24"><h4>Long Walk to Freedom - Nelson Mandela</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Nelson Mandela’s autobiography contains every elements of knowledge you want to know about 
+	 this legendary leader. Starting from his childhood, growing up in to a freedom fighter, to his
+	 twenty seven years in prison, and his significant role in molding up a new, democratic 
+	 South Africa, this book has it all.</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The Story of My Experiments with Truth -
+	 Mahatma Gandhi</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Mahatma Gandhi’s autobiography is a frank and humble account that highlights the moral 
+	 and spiritual side of an extraordinary leader. This book is firmly rooted in the historical 
+	 background of the forty years he spent in India. It has every detail of Gandhi’s life, historical 
+	 and political incidents, and his personal philosophy on life.</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The Diary of a Young Girl - Anne Frank</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>This diary is very unlike your usual autobiography. Anne Frank was a Jewish girl, who, along
+	 with her family and few friends, went into hiding during World War II. This beautiful piece 
+	 describes everything that a thirteen year old girl would experience: typical girlhood
+	 consciousness, friendships with other girls, her crushes on boys, and her academic
+	 performances. It also states how her life was while in hiding, her emotional roller coasters,
+	 her opinions on other people’s behavior, and her loneliness. Her diary ends shortly after her 
+	 fifteenth birthday.</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>Chronicles, Vol 1 - Bob Dylan</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Bob Dylan needs no introduction. This is the first volume of his autobiography and it 
+	 contains three chapters. Here he talks about his life in New York in 1961, his experiences
+	 while recording his first album and his devotion towards two of his lesser albums.</p>
+     </div>
+	  
+			  <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+            }) ;
+            }
+            </script>
+			
+			 
+			 </div>
+			 <h3 align="center"> <a href="books.html"><font color="green"> Back </h3></a> </font> 
+			 </body>
+			 </html>

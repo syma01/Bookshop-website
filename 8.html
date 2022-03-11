@@ -1,0 +1,108 @@
+<html>
+<head><title>ReadMeNow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href = "styleadd.css" rel = "stylesheet" type = "text/css">
+  	<link rel="stylesheet" href="nivo-slider.css" media="screen"/>
+  	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+	</script>
+  	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  	<link rel="shortcut icon" href="book.jpg"/>
+  	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+ <div id = "header">
+     <img src="1.jpg" id = "myImage">
+   </div>
+
+   <div class="top-right">
+     <table>
+	   <tr>
+	   <td><a href="example.html" style="text-decoration: none"><font color="#FFFFFF">HOME</a></td>
+       <td><a href="stores.html" style="text-decoration: none"><font color="#FFFFFF">STORES</a></td>
+       <td><a href="comment.html" style="text-decoration: none"><font color="#FFFFFF">COMMENT</a></td>
+	   <td><a href="books.html" style="text-decoration: none"><font color="#FFFFFF">SEARCH</a></td></font>	
+       </tr></table>
+	   </div>
+	   <div class = "additionalbook">
+        <h3><i>Fantasy is a genre of speculative fiction set in a fictional universe,
+		often inspired by real <br>world myth and folklore. Its roots are in oral traditions, 
+		which then became fantasy <br>literature and drama.</h3></i>
+					
+	 <div class="block1">
+     <button class="accordion"><b><i><font color="#0B3B24"><h4>Alice’s Adventures in 
+	 Wonderland - Lewis Carroll</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Even if you’re not a math geek, you’re probably familiar with the algebraist Charles
+	 Dodgson — you just know him his much more famous alter-ego, Lewis Carroll. Unlike Dodgson, 
+	 Carroll wrote stories that defied logic, twisting it into dreamlike, fantastical shapes: 
+	 a hookah-smoking caterpillar, a flamingo-filled croquet-ground, a perpetually tardy White Rabbit. 
+	 The result was Alice's Adventures in Wonderland, which has delighted adults and children alike 
+	 since it was published over a century and a half ago — and today is recognized as a momentous 
+	 early foray into the fantasy genre as a whole.</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The King of Elfland’s 
+	 Daughter - Lord Dunsany</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>The King of Elfland’s Daughter is a fairy tale with deep, dark roots — as well as 
+	 a love story rendered with piercing emotional honesty. It’s also an unlikely immigration novel, 
+	 about an elfin princess’s attempts to deal with her fractured sense of self as she adjusts to
+	 the homeland of her beloved human husband. Another remarkably early entry into the 
+	 fantasy genre, this book prompted Arthur C. Clarke to name Dunsany as one of the greatest 
+	 writers of his century, and World Fantasy Award winner Jane Yolen to call him “the great
+	 grandfather of us all.”</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The Hobbit - J.R.R. Tolkien</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>It might be a childhood favorite, but The Hobbit gives adult fantasy readers one of the 
+	 genre’s most relatable protagonists: a middle-aged homebody who just wants to chill. 
+	 The iconic Bilbo Baggins speaks to all grownup introverts who like nothing more than a
+	 good meal and a cozy chair. But we all hope we’d find Bilbo-like reservoirs of heroism 
+	 within us — yes, while a career as a Chosen One might be out of reach for us, we can
+	 all aspire to be Bilbo Baggins. </p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The Sword in the Stone - T.H. White </h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>We all know what happens after King Arthur pulls the sword out of the stone; The Sword 
+	 in the Stone takes a look at the before. Predictably, it’s much less glamorous. In this telling,
+	 the archetypical fantasy monarch was once just a boy called Wart — teased by his foster-brother 
+	 Kay and subjected to a punishing round of lessons that would make any modern high-schooler wince 
+	 in sympathy. Only Wart’s education doesn’t involve AP Calculus and JV Track... and his teacher, 
+	 Merlyn, prefers to instruct by turning his students into animals instead of grilling them with 
+	 the Socratic method.</p>
+     </div>
+   
+	  
+			  <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+            }) ;
+            }
+            </script>
+			
+			 
+			 </div>
+			 <h3 align="center"> <a href="books.html"><font color="green"> Back </h3></a> </font> 
+			 </body>
+			 </html>

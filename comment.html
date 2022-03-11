@@ -1,0 +1,58 @@
+<html>
+<title>comment</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "comment.css" rel = "stylesheet" type = "text/css">
+  	<link href = "style.css" rel = "stylesheet" type = "text/css">
+  	<link rel="stylesheet" href="nivo-slider.css" media="screen"/>
+  	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  	<link rel="shortcut icon" href="book.jpg"/>
+  	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>	
+<div id = "header">
+     <img src="1.jpg" id = "myImage">
+   </div>
+
+   <div class="top-right">
+     <table>
+	   <tr>
+	   <td><a href="example.html" style="text-decoration: none"><font color="#FFFFFF">HOME</a></td>
+       <td><a href="stores.html" style="text-decoration: none"><font color="#FFFFFF">STORES</a></td>
+       <td><a href="comment.html" style="text-decoration: none"><font color="#FFFFFF">COMMENT</a></td>
+       <td><a href="register.html" style="text-decoration: none"><font color="#FFFFFF">REGISTER</a></td>
+	   <td><a href="books.html" style="text-decoration: none"><font color="#FFFFFF">SEARCH</a></td></font>	
+       </tr></table>
+	   </div>
+      
+   <div class="sticky"><strong>Register to get access to other features of this website!</strong> 
+  	<span class="closebtn" onclick="this.parentElement.style.display='none'">&times;</span> 
+   </div>
+
+     <div class = "listbook">
+
+<h1 align="center"><b><font color="green">Leave your comment here</h1></b></font>
+<div class="container">
+   <form method="post" action="/www/Raziya/group3/Symbat/1/question.php">
+   <font color="grey"><b><center> Name <br></center>
+    <input type="text" name="Name" maxlength="25"  placeholder="Enter your name..." required>
+
+    <center>Surname<br></center>
+    <input type="text" name="Surname" maxlength="25" placeholder="Enter your surname..." required>
+
+   <center> Comment<br></center></b></font>
+    <textarea  name="Comment" maxlength="1000" placeholder="Leave a comment..." style="height:200px" required></textarea>
+
+   <input type="submit" name="Send" value="Send" class="Submit">
+   <input type="reset" name="Delete" value="Delete" class="reset">
+  </form>
+   <h3 align="center"> <a href="example.html"><font color="green"> Back </h3></a> </font> 
+</div>
+</div>
+</body>
+</html>

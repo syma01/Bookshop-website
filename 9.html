@@ -1,0 +1,104 @@
+<html>
+<head><title>ReadMeNow</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link href = "styleadd.css" rel = "stylesheet" type = "text/css">
+  	<link rel="stylesheet" href="nivo-slider.css" media="screen"/>
+  	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript">
+	</script>
+  	<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
+  	<link rel="shortcut icon" href="book.jpg"/>
+  	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+  	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+ <div id = "header">
+     <img src="1.jpg" id = "myImage">
+   </div>
+
+   <div class="top-right">
+     <table>
+	   <tr>
+	   <td><a href="example.html" style="text-decoration: none"><font color="#FFFFFF">HOME</a></td>
+       <td><a href="stores.html" style="text-decoration: none"><font color="#FFFFFF">STORES</a></td>
+       <td><a href="comment.html" style="text-decoration: none"><font color="#FFFFFF">COMMENT</a></td>
+	   <td><a href="books.html" style="text-decoration: none"><font color="#FFFFFF">SEARCH</a></td></font>	
+       </tr></table>
+	   </div>
+	   <div class = "additionalbook">
+        <h3><i>A self-help book is one that is written with the intention to instruct its 
+		readers on solving personal<br> problems. The books take their name from Self-Help, 
+		an 1859 best-seller by Samuel Smiles,<br> but are also known and classified under 
+		"self-improvement", a term that is a modernized <br>version of self-help.</h3></i>
+					
+	 <div class="block1">
+     <button class="accordion"><b><i><font color="#0B3B24"><h4>Whatcha Gonna Do with That Duck? 
+	 - Seth Godin</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>If you need a friend who understands you, a boss that forces you to venture deep in your 
+	 non-comfort zone, a wise guru that tells you what needs to be left behind and a sage that
+	 proclaims the coming of a new age, then look no further; you will find these shrewd voices
+	 all tied together in this magnificent book. Make sure to get this one.</p>
+     </div>
+	<button class="accordion"><b><i><font color="#0B3B24"><h4>Fooled by Randomness - Nassim Nicholas Taleb</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>This book gave me a perspective that I unfortunately rarely encounter in others: 
+	 you can do everything right and still lose, or do everything wrong and still win. It is 
+	 thus not about the outcome; it is about your actions that have lead you there. This important
+	 message is central to many of my decisions I make in my life. This book by Taleb helps you 
+	 develop such a perspective so you will be able to live in a world one cannot fully understand, 
+	 where the results are not always clear markers of performance and where chance seems to play
+	 games with our fates. Stop being fooled by randomness!</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The 48 Laws of Power - Robert Greene</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>Besides the fact that all stories in this book gravitate around power. It contains many 
+	 life lessons, amazing historical anecdotes. If read in a certain light, the ability to use 
+	 power for good. From Caesar to Goethe, Sun-Tzu to Machiavelli, this eye opening book spans 
+	 a wide range of human development. If you, like me, would rather be interested in something
+	 less egotistical, perhaps Greene’s latest book Mastery will suffice.</p>
+     </div>
+	 <button class="accordion"><b><i><font color="#0B3B24"><h4>The 7 Habits of Highly Effective People -
+	 Stephen. R. Covey</h4>
+	 </font> 
+	 </button></b></i>
+     <div class="panel">
+     <p>The title of this book doesn’t capture it all. Covey shares with us seven habits one
+	 should adapt to become truly effective in whatever you would like to achieve. Of course, 
+	 it is not as easy as it sounds. He stresses the fact that we need to go through a paradigm
+	 shift – a fundamental change in how we perceive the world and ourselves. This book can be 
+	 read as a guide, with practices and everything, to go through the stages in order to make 
+	 such a shift happen. Part shock-therapy, part ageless spiritual wisdom, Covey’s book is packed
+	 with wisdom that actually makes a difference.</p>
+     </div>
+  	  
+			  <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+            }) ;
+            }
+            </script>
+			
+			 
+			 </div>
+			 <h3 align="center"> <a href="books.html"><font color="green"> Back </h3></a> </font> 
+			 </body>
+			 </html>
